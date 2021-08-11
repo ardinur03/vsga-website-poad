@@ -1,0 +1,151 @@
+/* Saya menggunakan font custom dari google API bernama fonts google, ini adalah cdn jadi harus terkoneksi ke internet  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+body {
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#hero-content {
+    background-color: #ffffff;
+}
+
+.hero-ard-title {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    color: #173A56;
+}
+
+.heroardi p {
+    color: #173A56;
+}
+
+.btn-primary {
+    padding: 10px 35px 10px 35px;
+    font-weight: bold;
+}
+
+.btn-trasparent-custom {
+    background-color: none;
+    border: 1px solid #BCD0E5;
+    padding: 10px 35px 10px 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-trasparent-custom:hover {
+    background-color: #eeeeee;
+    color: #000000;
+    border: 1px solid #bababa;
+    padding: 10px 35px 10px 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link {
+    color: #173A56;
+}
+
+.custom-wave {
+    position: relative;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+#sosmed .content-sosmed {
+    margin-top: -320px;
+    margin-bottom: 140px;
+}
+
+.container-fluid-custom {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align-self-baseline a {
+    margin: 0px 8px;
+}
+
+.fixed-left {
+    position: fixed;
+    top: 0;
+    width: 305px;
+    z-index: 1030;
+}
+
+.logo-skuy-membaca {
+    animation: MoveUpDown 1s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.card-body-custom {
+    background-color: #F8F9FA !important;
+}
+
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
+}
+
+#footer {
+    box-sizing: border-box;
+    background-color: #141432;
+    padding: 50px 50px;
+    color: #f7f7f7;
+}
+
+
+/* view kontak */
+
+#kontak {
+    height: 89vh;
+}
+
+#about {
+    height: 89vh;
+}
+
+
+/* Responsive Web */
+
+@media only screen and (max-width: 768px) {
+    .btn-primary,
+    .btn-trasparent-custom {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .container .heroardi {
+        text-align: center !important;
+    }
+    .container .heroardi .hero-ard-title {
+        font-size: 30px;
+    }
+    .container-fluid-custom {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .image-kontak {
+        width: 100%;
+    }
+}

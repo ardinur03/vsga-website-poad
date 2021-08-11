@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak Perpustakaan | Ardidev</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap-4.3/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- file css style custom -->
+    <link rel="stylesheet" href="assets/css/custom-style.css">
+
+    <!-- css font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar py-3 navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+            <a class="navbar-brand mr-5 align-self-center" href="#">
+                <img src="assets/images/logo-navbar.png" width="100px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-3 align-self-center">
+                        <a class="nav-link" href="index.html">Beranda <span class=" sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-3 dropdown align-self-center">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            List Buku
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html#item-1">Paket IPA 2019</a>
+                            <a class="dropdown-item" href="index.html#item-1-1">Paket IPA 2020</a>
+                            <a class="dropdown-item" href="index.html#item-1-2">Paket IPA 2021</a>
+                            <a class="dropdown-item" href="index.html#item-1-2">Paket IPA 2021</a>
+                            <a class="dropdown-item" href="index.html#item-1-2">Paket IPA 2021</a>
+                            <a class="dropdown-item" href="index.html#item-2">PWPB</a>
+                            <a class="dropdown-item" href="index.html#item-3">SISKOM kelas 10</a>
+                            <a class="dropdown-item" href="index.html#item-3-1">SISKOM kelas 11</a>
+                            <a class="dropdown-item" href="index.html#item-3-2">SISKOM kelas 12</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-3 align-self-center">
+                        <a class="nav-link" href="about.html">Tentang</a>
+                    </li>
+                    <li class="nav-item mx-3 align-self-center">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+
+
+                    <a href="#" class="btn btn-trasparent-custom ml-3 mr-2">Login</a>
+                    <a href="#" class="btn btn-primary">Daftar Akun</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="kontak">
+        <div class="container">
+            <div class="card">
+                <div class="card-body p-5">
+                    <div class="row justify-content-between">
+                        <div class="col-md-4 align-self-center">
+                            <img src="assets/images/kontak.svg" class="image-kontak" width="150%" alt="">
+                            <p> jika ada pertanyaan silahkan hubungi kami di email : <a href="mailto:ardinurinsan03@gmail.com" class="text-decoration-none">ardinurinsan03@gmail.com</a> atau anda bisa isi form </p>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="#">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="nama-input">Nama Lengkap</label>
+                                        <input type="text" class="form-control" id="nama-input" placeholder="Nama Lengkap">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <div class="form-group">
+                                            <label for="email-input">Email</label>
+                                            <input type="email" class="form-control" id="email-input" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <div class="form-group">
+                                            <label for="alamat-input">Alamat</label>
+                                            <textarea class="form-control" id="alamat-input" placeholder="Alamat" cols="10" rows="5"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="jenis-pesan">Jenis Pesan</label>
+                                        <select id="jenis-pesan" class="form-control">
+                                    <option>Biasa</option>
+                                    <option>Penting</option>
+                                    <option>Sangat Penting</option>
+                                </select>
+                                    </div>
+                                    <div class="form-group col-md-7 align-self-end ml-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="cekBot">
+                                            <label class="form-check-label" for="cekBot">
+                                        centang disini jika anda bukan robot
+                                    </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-auto">
+                    <p class="mt-3 text-center">
+                        Dibuat dengan
+                        <i class="fas fa-heart" style="color:#ff0000"></i> di Bandung
+                    </p>
+                    <p>&copy; Copyright - 2021 | Di design oleh
+                        <a href="https://ardinur.space" data-toggle="tooltip" data-placement="top" title="Lihat Web Portofolio Muhamad Ardi Nur Insan" class="text-decoration-none" target="_blank">Muhamad Ardi Nur Insan</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/bootstrap-4.3/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/bootstrap-4.3/js/popper.min.js"></script>
+    <script src="assets/bootstrap-4.3/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

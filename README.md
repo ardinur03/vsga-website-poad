@@ -22,13 +22,14 @@ Untuk pemasangan aplikasi anda harus ikuti langkah berikut :
  - Anda bebas menyimpan hasil clone ini, tapi di sarankan untuk meng-clone di folder **htdocs** atau tentukan berdasarkan folder **web server** anda
 
 
-
 ## Configuration (Konfigurasi ) 🖥💻
 
 Sebelum menjalankan aplikasi anda harus mengkonfigurasi kebutuhan aplikasi tersebut. konfigurasi tersebut di antaranya :
 
  - Pastikan WebServer anda menyala. ada banyak aplikasi Web Server gratis anda bisa menggunakan [XAMPP](https://www.apachefriends.org/download.html), [Laragon](https://laragon.org/download/index.html), [WampServer](https://www.wampserver.com/en/) dan lain-lain
  - setelah nyala search di browser anda dengan link : localhost/vsga-website-poad
+ - Jika berhasil maka tampilan akan seperti di bawah ini :
+ ![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/view-web.jpeg)
 
 ## Copyright and Permission to use the software (Hak Cipta dan izin untuk menggunakan Perangkat Lunak) ©
 

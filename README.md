@@ -31,6 +31,16 @@ Sebelum menjalankan aplikasi anda harus mengkonfigurasi kebutuhan aplikasi terse
  - Jika berhasil maka tampilan akan seperti di bawah ini :
  ![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/view-web.jpeg)
 
+## Structure / Hirarki Program
+
+```mermaid
+graph LR
+A[Pengguna Umum] -- buka --> B((Sistem))
+
+B --> D[menampilkan halaman yang di pilih sistem]
+D --> A
+```
+
 ## Copyright and Permission to use the software (Hak Cipta dan izin untuk menggunakan Perangkat Lunak) ©
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Untuk **Copyright** Aplikasi kami anda di wajibkan mencantumkan nama dari penciptanya, karena ini bertujuan untuk melindungi nama baik aplikasi kami, sekaligus demi melindungi karya kami atas berbagai kemungkinan  penyalahgunaan dan juga penyelewengan atas hasil karya kami. Tentunya Anda akan merasa kesal apabila desain Anda digunakan secara bebas oleh orang lain tanpa izin dari Anda bukan?

@@ -32,14 +32,7 @@ Sebelum menjalankan aplikasi anda harus mengkonfigurasi kebutuhan aplikasi terse
  ![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/view-web.jpeg)
 
 ## Structure / Hirarki Program
-
-```mermaid
-graph LR
-A[Pengguna Umum] -- buka --> B((Sistem))
-
-B --> D[menampilkan halaman yang di pilih sistem]
-D --> A
-```
+![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/ALUR.jpg)
 
 ## Copyright and Permission to use the software (Hak Cipta dan izin untuk menggunakan Perangkat Lunak) ©
 

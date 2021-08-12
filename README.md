@@ -32,7 +32,7 @@ Sebelum menjalankan aplikasi anda harus mengkonfigurasi kebutuhan aplikasi terse
  ![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/view-web.jpeg)
 
 ## Structure / Hirarki Program
-![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/ALUR.jpg)
+![enter image description here](https://raw.githubusercontent.com/ardinur03/vsga-website-poad/main/assets/images/hirarki-sistem.jpg)
 
 ## Copyright and Permission to use the software (Hak Cipta dan izin untuk menggunakan Perangkat Lunak) ©
 

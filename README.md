@@ -4,7 +4,7 @@
 📌  &nbsp; Status Aplikasi : Unreleased/Belum Rilis  📚 📖
 # Aplikasi Perpustakaan Online ArdiDev 📖
 
-Website POAD merupakan Tugas Front End BootCamp VSGA. Yang dimana POAD ini Adalah singkatan dari **Perpustakaan Online ArdiDev**, dengan menyajikan e-book secara online dan tentunya memudahkan untuk mencari buku sumber atau pelajaran.
+Website POAD merupakan Prototype tugas Front End pada BootCamp Junior Web Developer VSGA Kominfo. Yang dimana POAD ini Adalah singkatan dari **Perpustakaan Online ArdiDev**, dengan menyajikan e-book secara online dan tentunya memudahkan untuk mencari buku sumber atau pelajaran.
 
 
 ## Installation (Pemasangan Aplikasi) 💻

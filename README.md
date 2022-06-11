@@ -60,5 +60,5 @@ aplikasi akan ada masa **Maintenance/Pemeliharaan** untuk source code bisa akses
 
 
 
-###### © COPYRIGHT 2021  |  Created By  [Muhamad Ardi Nur Insan](www.ardinur.space)
+###### © COPYRIGHT 2021  |  Created By  [Muhamad Ardi Nur Insan](www.ardinur.engineer)
 
